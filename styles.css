@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+input {
+    background-color: #bbb8b87c;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+.container-valor-presente {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.container-vp-resultado {
+    background-color: #d870939b;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.btnCalcula {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: 1px 1px 3px #000000;
+}

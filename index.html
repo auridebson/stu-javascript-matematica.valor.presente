@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Matemática</title>
+</head>
+<body>
+
+    <h1 class="cabecalho">Minha Matemática</h1>
+
+    <div class="container">
+
+        <div class="container-formulas">
+        <p>VP= PMT / (1+i)n</p> 
+            <div class="container-valor-presente">
+
+                
+                <label for="campo_pv">PV (Valor presente)</label>
+                <input type="number" id="campo_pv" placeholder="Valor presente (à vista)">
+
+                <label for="campo_pmt">PMT (Pagamentos futuros)</label>
+                <input type="number" id="campo_pmt" placeholder="Valor dos pagamentos futuros">
+
+                <label for="campo_i">i (Taxa de juros)</label>
+                <input type="number" id="campo_i" placeholder="Taxa de juros">
+
+                <label for="campo_n">n (Períodos)</label>
+                <input type="number" id="campo_n" placeholder="Número de períodos">
+
+                <button class="btnCalcula">Calcular</button>
+                
+                <label for="container-vp-resultado">Resultado</label>
+                <div id="container-vp-resultado" class="container-vp-resultado">
+
+                
+                    
+                </div>
+
+
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
