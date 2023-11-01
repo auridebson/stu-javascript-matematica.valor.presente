@@ -9,15 +9,20 @@ const btnCalcula = document.querySelector(".btnCalcula")
 
 
 // VP= PMT / (1+i)n
-function valorPresente(vp_pmt,i,n) {
-    const resultado = vp_pmt / (1+i)**n
+
+
+function valorPresente(pmt,i,n) {
+    pmt = Number(campo_pmt.value)
+    i = Number(campo_i.value)
+    n = Number(campo_n.value)
+
+    const resultado = pmt / (1+i)**n
+
+    console.log(resultado)
+    container_vp_resultado.innerHTML = 'asdfsdf'
+
     return resultado
 }
 
-function somaCampos(pmt,i,n) {
-    const somatorio = pmt.value
-    console.log(somatorio)
-    return somatorio
-}
 
-btnCalcula.addEventListener("click", () => alert(somaCampos()))
+btnCalcula.addEventListener("click", valorPresente)
