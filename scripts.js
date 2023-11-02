@@ -17,9 +17,9 @@ function valorPresente(pmt,i,n) {
     n = Number(campo_n.value)
 
     const resultado = pmt / (1+i)**n
-
+    container_vp_resultado.innerHTML += 'asdfsdf'
     console.log(resultado)
-    container_vp_resultado.innerHTML = 'asdfsdf'
+   
 
     return resultado
 }
