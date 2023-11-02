@@ -2,6 +2,23 @@
     padding: 0px;
     border: 0px;
     margin: 0px;
+    font-family: Verdana;
+}
+.cabecalho {
+    background-color: #3c0d0de4;
+    color: #ffffff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.container-formulas-titulo {
+    width: 200px;
+    background-color: #e7bc5ee4;
+    color: #000000;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    border-radius: 6px;
 }
 
 input {
@@ -36,4 +53,8 @@ input {
     border-radius: 6px;
     margin: 10px;
     box-shadow: 1px 1px 3px #000000;
+}
+
+.btnCalcula:hover {
+    box-shadow: 2px 2px 4px #0000009b;
 }
