@@ -4,7 +4,7 @@ const campo_pmt = document.querySelector("#campo_pmt")
 const campo_i = document.querySelector("#campo_i")
 const campo_n = document.querySelector("#campo_n")
 
-const container_vp_resultado = document.querySelector(".container_vp_resultado")
+const container_vp_resultado = document.querySelector(".container-vp-resultado")
 const btnCalcula = document.querySelector(".btnCalcula")
 
 
@@ -17,7 +17,7 @@ function valorPresente(pmt,i,n) {
     n = Number(campo_n.value)
 
     const resultado = pmt / (1+i)**n
-    container_vp_resultado.innerHTML += 'asdfsdf'
+    container_vp_resultado.innerHTML = resultado
     console.log(resultado)
    
 
