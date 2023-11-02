@@ -21,6 +21,16 @@
     border-radius: 6px;
 }
 
+.container-vp-resultado {
+    width: 200px;
+    background-color: #e7bc5ee4;
+    color: #000000;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px;
+}
+
 input {
     background-color: #bbb8b87c;
     height: 30px;
@@ -35,16 +45,6 @@ input {
     display: flex;
     flex-direction: column;
     margin: 15px;
-}
-
-.container-vp-resultado {
-    background-color: #d870939b;
-    padding: 5px;
-    width: 200px;
-    height: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 6px;
 }
 
 .btnCalcula {
